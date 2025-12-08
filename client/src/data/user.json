@@ -1,0 +1,132 @@
+{
+  "name": "ragini kumari",
+  "role": "Aspiring Software Developer & Full-Stack Learner",
+  "tagline": "Building modern web apps and solving real-world problems with clean code.",
+  "about": [
+    "I'm ragini Kumari, a software developer in the making, passionate about building clean, usable and efficient applications. I enjoy understanding how systems work from end-to-end – from the database and APIs to the animations and user experience.",
+    "My journey started with C, C++ and Java basics in college, and then moved into web development, Python and data handling. I've worked on projects like a Medicine Distribution Management System (DAWAI NOW), a To-Do List app, and an EMI Calculator, which helped me understand real-world problem solving, database design and UI/UX.",
+    "Right now I'm focusing on improving my DSA, building full-stack projects, and exploring modern tools like Next.js, TypeScript and three.js to create immersive experiences on the web.",
+    "When I'm not coding, you'll probably find me exploring new tech, listening to music, or planning my next side project."
+  ],
+
+  "education": [
+    {
+      "degree": "B.Tech in Computer Science / IT",
+      "institution": "Your College Name",
+      "year": "Ongoing"
+    }
+  ],
+
+  "skills": [
+    "C",
+    "C++",
+    "Java (Basics)",
+    "Python",
+    "JavaScript",
+    "TypeScript",
+    "HTML5",
+    "CSS3",
+    "Bootstrap / Tailwind",
+    "React (Basics)",
+    "Next.js (Learning)",
+    "Node.js",
+    "Express.js",
+    "REST APIs",
+    "MySQL",
+    "Oracle / SQL basics",
+    "Git",
+    "GitHub",
+    "VS Code",
+    "Replit",
+    "Cursor",
+    "Data Structures & Algorithms (learning)",
+    "OOP",
+    "DBMS fundamentals",
+    "Problem Solving"
+  ],
+
+  "projects": [
+    {
+      "title": "BNB CAFE – CAFE Management System",
+      "role": "Backend & Database Design",
+      "tech": "C / Java (as used), SQL, DBMS",
+      "description": "A system TO MANAGE CAFE. Designed ER diagrams, DFDs, database schema and implemented core CRUD operations for managing records.",
+      "highlights": [
+        "Structured data flow using DFDs and ERD",
+        "Implemented modules for purchase, sales, and returns",
+        "Focused on data consistency and simple UI for operators"
+      ]
+    },
+    {
+      "title": "To-Do List Application",
+      "role": "Python Developer",
+      "tech": "Python",
+      "description": "A simple productivity app to add, update, and delete daily tasks. Built as a mini project to practice Python logic and user interaction.",
+      "highlights": [
+        "Clean and simple interface for daily tasks",
+        "Learned file handling / basic persistence",
+        "Improved understanding of Python functions and modules"
+      ]
+    },
+    {
+      "title": "EMI Calculator",
+      "role": "VB6 / Logic Developer",
+      "tech": "VB 6.0",
+      "description": "Desktop tool to calculate monthly EMIs, total payable amount, and total interest based on principal, rate and tenure.",
+      "highlights": [
+        "Implemented EMI formula and validation",
+        "Helped understand financial calculations and UI events"
+      ]
+    },
+    {
+      "title": "Personal Portfolio – Gen-Z Rave Theme",
+      "role": "Front-End Developer",
+      "tech": "Next.js, TypeScript, three.js",
+      "description": "An animated, dark rave themed portfolio to showcase my skills, projects and experience with smooth transitions and 3D visuals.",
+      "highlights": [
+        "Custom hero section with 3D sphere and particle background",
+        "Command-palette (Cmd + K) for quick navigation",
+        "Responsive layout for mobile and desktop"
+      ]
+    }
+  ],
+
+  "experience": [
+    {
+      "role": "Virtual Intern – Data Science & Web Scraping",
+      "company": "Cognifyz Technologies",
+      "year": "2024",
+      "details": [
+        "Completed level-based tasks including web scraping and data handling in Python.",
+        "Automated data collection from websites and cleaned the data for analysis.",
+        "Strengthened skills in Python, requests, BeautifulSoup, and data processing."
+      ]
+    },
+    {
+      "role": "Virtual Intern – Python Developer",
+      "company": "CodeSoft",
+      "year": "2024",
+      "details": [
+        "Built mini-projects like a To-Do List application and calculator tools.",
+        "Practiced writing clean, modular Python code.",
+        "Gained experience working with tasks and deadlines in a remote setup."
+      ]
+    },
+    {
+      "role": "B.Tech Student – College Projects",
+      "company": "Computer Science / IT",
+      "year": "Ongoing",
+      "details": [
+        "DBMS project: CAFE MANAGEMENT SYSTEM \"BNB CAFE\".",
+        "Multiple programs in C, Java and Python focusing on DSA and problem solving."
+      ]
+    }
+  ],
+
+  "contact": {
+    "email": "YOUR_EMAIL_HERE",
+    "github": "https://github.com/YOUR_USERNAME",
+    "linkedin": "https://www.linkedin.com/in/YOUR_PROFILE/",
+    "location": "Patna, India"
+  }
+}

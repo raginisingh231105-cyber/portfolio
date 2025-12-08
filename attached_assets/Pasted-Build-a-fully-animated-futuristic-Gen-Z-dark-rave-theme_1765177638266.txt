@@ -1,0 +1,313 @@
+Build a fully animated, futuristic, Gen-Z dark rave themed personal portfolio using:
+
+Next.js (latest – App Router allowed)
+
+TypeScript
+
+Three.js
+
+@react-three/fiber + @react-three/drei
+
+Barba.js + GSAP
+
+Tailwind CSS
+
+The portfolio is for Ragini — BCA Student.
+
+Theme: Dark • Neon • Rave • Cyber • Glitch • Futuristic
+
+🎯 MAIN PURPOSE
+
+Showcase:
+
+Skills
+
+Education (BCA)
+
+Projects
+
+Experience (if any)
+
+Contact + Social links
+
+The design must be bold, unique, fully animated, and Gen-Z style.
+
+1. TECH RULES (STRICT — NO EXCEPTIONS)
+
+Use Next.js + TypeScript
+
+Three.js for hero section
+
+Barba.js for page transitions
+
+GSAP for all animations
+
+Fully responsive (mobile + desktop)
+
+Support prefers-reduced-motion
+
+Load 3D using dynamic() (no SSR for Three.js)
+
+NO template / boilerplate design
+
+2. INSTALL THESE DEPENDENCIES
+next
+react
+react-dom
+typescript
+three
+@react-three/fiber
+@react-three/drei
+gsap
+@barba/core
+tailwindcss
+postcss
+autoprefixer
+clsx
+
+3. PROJECT STRUCTURE (FOLLOW EXACTLY)
+/src
+  /components
+    NavBar.tsx
+    Footer.tsx
+    Hero3D.tsx
+    ThreeScene.tsx
+    SkillCard.tsx
+    ProjectCard.tsx
+    Timeline.tsx
+    ContactForm.tsx
+
+  /pages
+    _app.tsx
+    _document.tsx
+    index.tsx
+    about.tsx
+    projects.tsx
+    experience.tsx
+    contact.tsx
+
+  /lib
+    barba.ts
+    theme.ts
+
+  /data
+    user.json
+
+  /styles
+    globals.css
+
+/public
+  /assets
+
+4. DESIGN THEME (DARK RAVE)
+
+Use these exact colors:
+
+Background: #06070A
+Purple:     #7C2AE8
+Cyan:       #00FFC6
+Pink:       #FF2D95
+White:      #FFFFFF
+
+
+Gradient:
+
+linear-gradient(135deg, #7C2AE8, #00FFC6, #FF2D95)
+
+
+Font: Poppins or Inter
+
+5. USER DATA (AUTO-FILL INTO SITE)
+
+Create /src/data/user.json:
+
+{
+  "name": "Ragini",
+  "role": "BCA Student",
+  "tagline": "Future Tech Creator",
+  "about": "I am Ragini, a BCA student passionate about technology, programming, and building creative digital experiences. I am interested in web development, animations, and emerging technologies like AI and 3D interfaces.",
+
+  "education": [
+    {
+      "degree": "Bachelor of Computer Applications (BCA)",
+      "institution": "Your College Name",
+      "year": "Currently Studying"
+    }
+  ],
+
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "C",
+    "C++",
+    "Python",
+    "GitHub",
+    "Problem Solving"
+  ],
+
+  "projects": [
+    {
+      "title": "Portfolio Website",
+      "tech": "HTML, CSS, JS",
+      "description": "Personal portfolio project with responsive layout"
+    },
+    {
+      "title": "Student Management System",
+      "tech": "C++",
+      "description": "Program to manage student data"
+    },
+    {
+      "title": "Coming Soon",
+      "tech": "Next.js + Three.js",
+      "description": "Advanced animated portfolio"
+    }
+  ],
+
+  "experience": [],
+
+  "contact": {
+    "email": "your_email_here@gmail.com",
+    "github": "https://github.com/yourusername",
+    "linkedin": "https://linkedin.com/in/yourusername"
+  }
+}
+
+
+Use this file across all pages.
+
+6. HERO 3D REQUIREMENTS
+
+Create neon glowing orb / ring / abstract shape
+
+Use React Three Fiber + Drei
+
+Slow rotation animation
+
+Reacts to mouse movement
+
+Full-screen hero background
+
+Disabled if prefers-reduced-motion
+
+Must be inside:
+
+Hero3D.tsx
+ThreeScene.tsx
+
+7. BARBA.JS PAGE TRANSITIONS
+
+Use:
+
+data-barba="wrapper"
+data-barba="container"
+
+
+In /lib/barba.ts:
+
+import barba from '@barba/core'
+import gsap from 'gsap'
+
+export default function initBarba() {
+  barba.init({
+    transitions: [
+      {
+        name: 'rave',
+        leave({ current }) {
+          return gsap.to(current.container, {
+            opacity: 0,
+            y: -40,
+            duration: 0.5
+          })
+        },
+
+        enter({ next }) {
+          return gsap.from(next.container, {
+            opacity: 0,
+            y: 40,
+            duration: 0.5
+          })
+        }
+      }
+    ]
+  })
+}
+
+
+Initialize inside _app.tsx.
+
+8. REQUIRED PAGES + CONTENT
+Home /
+
+Big text: Ragini
+
+Subtitle: BCA Student
+
+3D background
+
+Glitch animated headings
+
+CTA: “View Projects”
+
+About /about
+
+About text from user.json
+
+Education section
+
+Neon cards
+
+Projects /projects
+
+Use ProjectCard.tsx
+
+Neon hover + glow + modal
+
+Experience /experience
+
+Timeline using Timeline.tsx
+
+Placeholder if empty
+
+Contact /contact
+
+Animated form
+
+Social icons from user.json
+
+Cursor glow effect
+
+9. ENABLE THESE EFFECTS
+
+✅ Glitch text
+✅ Neon borders
+✅ Smooth scrolling
+✅ Cursor glow
+✅ Loading animation
+✅ Keyboard shortcut (Press “R” for Home)
+✅ Optional background music toggle
+✅ Scroll animations
+
+10. FINAL OUTPUT REQUIREMENTS
+
+After building, show:
+
+Fully working project
+
+npm run dev runs without error
+
+Clean README.md
+
+Deployment steps (Vercel + Replit)
+
+❗ DO NOT explain anything
+❗ DO NOT add extra text
+❗ JUST BUILD the project
+
+If you’re ready for the next step, reply:
+
+"Add my skills + projects"
+or
+"Now give Tailwind & Shader config"
+
+And if you want, I can now customize this prompt with your college name, real skills, and real projects for a perfect portfolio.

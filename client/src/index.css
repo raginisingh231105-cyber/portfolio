@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: #06070A;
+  --color-foreground: #FFFFFF;
+  
+  --color-neon-purple: #7C2AE8;
+  --color-neon-cyan: #00FFC6;
+  --color-neon-pink: #FF2D95;
+  
+  --font-sans: "Poppins", sans-serif;
+  --font-mono: "Inter", monospace;
+  
+  --animate-glitch: glitch 1s linear infinite;
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-pulse-glow: pulse-glow 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+
+  @keyframes glitch {
+    2%, 64% { transform: translate(2px,0) skew(0deg); }
+    4%, 60% { transform: translate(-2px,0) skew(0deg); }
+    62% { transform: translate(0,0) skew(5deg); }
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+  }
+  
+  @keyframes pulse-glow {
+    0%, 100% { opacity: 1; box-shadow: 0 0 20px #7C2AE8; }
+    50% { opacity: .5; box-shadow: 0 0 40px #00FFC6; }
+  }
+}
+
+@layer base {
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    overflow-x: hidden;
+    cursor: none; /* Custom cursor will handle this */
+  }
+
+  /* Custom Scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #06070A;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #7C2AE8;
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #FF2D95;
+  }
+  
+  /* Selection */
+  ::selection {
+    background: #00FFC6;
+    color: #000;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    background: linear-gradient(135deg, #7C2AE8, #00FFC6, #FF2D95);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .border-gradient {
+    border: 1px solid transparent;
+    background: linear-gradient(#06070A, #06070A) padding-box,
+                linear-gradient(135deg, #7C2AE8, #00FFC6) border-box;
+  }
+
+  .neon-glow {
+    box-shadow: 0 0 10px rgba(124, 42, 232, 0.5),
+                0 0 20px rgba(0, 255, 198, 0.3);
+  }
+  
+  .glass-panel {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+  }
+}
