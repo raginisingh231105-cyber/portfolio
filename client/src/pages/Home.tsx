@@ -27,14 +27,14 @@ export default function Home() {
             {userData.tagline}
           </p>
           
-          <div className="flex gap-6">
+          <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
             <Link href="/projects">
-              <a className="px-8 py-3 bg-white text-black font-bold uppercase tracking-wider hover:bg-neon-cyan hover:scale-105 transition-all duration-300 shadow-[0_0_20px_rgba(255,255,255,0.2)]">
+              <a className="px-6 sm:px-8 py-3 bg-white text-black font-bold uppercase tracking-wider hover:bg-neon-cyan hover:scale-105 transition-all duration-300 shadow-[0_0_20px_rgba(255,255,255,0.2)] text-center text-sm sm:text-base">
                 View My Projects
               </a>
             </Link>
             <Link href="/contact">
-              <a className="px-8 py-3 border border-gray-600 text-white font-bold uppercase tracking-wider hover:border-neon-pink hover:text-neon-pink hover:shadow-[0_0_20px_rgba(255,45,149,0.3)] transition-all duration-300">
+              <a className="px-6 sm:px-8 py-3 border border-gray-600 text-white font-bold uppercase tracking-wider hover:border-neon-pink hover:text-neon-pink hover:shadow-[0_0_20px_rgba(255,45,149,0.3)] transition-all duration-300 text-center text-sm sm:text-base">
                 Download Resume
               </a>
             </Link>
