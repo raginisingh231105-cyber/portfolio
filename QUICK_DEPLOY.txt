@@ -1,0 +1,15 @@
+🚀 QUICK DEPLOY - COPY & PASTE THESE STEPS:
+
+1. Open: https://vercel.com/new
+2. Click "Continue with GitHub"
+3. Find: raginisingh231105-cyber/portfolio
+4. Click "Import"
+5. Click "Deploy"
+6. Wait 3 minutes
+7. Copy your URL!
+8. Open on your phone!
+
+YOUR REPO: https://github.com/raginisingh231105-cyber/portfolio
+
+EVERYTHING IS READY! JUST DEPLOY IT! 🎉
+
