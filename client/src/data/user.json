@@ -1,9 +1,9 @@
 {
-  "name": "ragini kumari",
+  "name": "Ragini Kumar",
   "role": "Aspiring Software Developer & Full-Stack Learner",
   "tagline": "Building modern web apps and solving real-world problems with clean code.",
   "about": [
-    "I'm ragini Kumari, a software developer in the making, passionate about building clean, usable and efficient applications. I enjoy understanding how systems work from end-to-end – from the database and APIs to the animations and user experience.",
+    "I'm Ragini Kumar, a software developer in the making, passionate about building clean, usable and efficient applications. I enjoy understanding how systems work from end-to-end – from the database and APIs to the animations and user experience.",
     "My journey started with C, C++ and Java basics in college, and then moved into web development, Python and data handling. I've worked on projects like a Medicine Distribution Management System (DAWAI NOW), a To-Do List app, and an EMI Calculator, which helped me understand real-world problem solving, database design and UI/UX.",
     "Right now I'm focusing on improving my DSA, building full-stack projects, and exploring modern tools like Next.js, TypeScript and three.js to create immersive experiences on the web.",
     "When I'm not coding, you'll probably find me exploring new tech, listening to music, or planning my next side project."
@@ -11,7 +11,7 @@
 
   "education": [
     {
-      "degree": "B.Tech in Computer Science / IT",
+      "degree": "BCA in Computer Science / IT",
       "institution": "Your College Name",
       "year": "Ongoing"
     }
@@ -47,10 +47,10 @@
 
   "projects": [
     {
-      "title": "BNB CAFE – CAFE Management System",
+      "title": "DAWAI NOW – Medicine Distribution Management System",
       "role": "Backend & Database Design",
       "tech": "C / Java (as used), SQL, DBMS",
-      "description": "A system TO MANAGE CAFE. Designed ER diagrams, DFDs, database schema and implemented core CRUD operations for managing records.",
+      "description": "A system to manage medicine stock, distributors, retailers and sales/returns. Designed ER diagrams, DFDs, database schema and implemented core CRUD operations for managing records.",
       "highlights": [
         "Structured data flow using DFDs and ERD",
         "Implemented modules for purchase, sales, and returns",
@@ -113,11 +113,11 @@
       ]
     },
     {
-      "role": "B.Tech Student – College Projects",
+      "role": "BCA Student – College Projects",
       "company": "Computer Science / IT",
       "year": "Ongoing",
       "details": [
-        "DBMS project: CAFE MANAGEMENT SYSTEM \"BNB CAFE\".",
+        "DBMS project: Medicine Distribution Management System (DAWAI NOW).",
         "Multiple programs in C, Java and Python focusing on DSA and problem solving."
       ]
     }
